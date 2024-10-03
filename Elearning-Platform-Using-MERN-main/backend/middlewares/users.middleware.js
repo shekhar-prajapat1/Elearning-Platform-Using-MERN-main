@@ -22,7 +22,7 @@ const auth = (req, res, next) => {
       res.status(400).json({ msg: error.message });
     }
   } else {
-    res.json({ msg: "Please Login" });
+    res.json({ msg: "Please Login" });//to join 
   }
 };
 //shekhar 
